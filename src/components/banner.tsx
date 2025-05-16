@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Waves from "../blocks//Backgrounds/Waves/Waves"
 import '../App.css'
 import "./banner.css"
