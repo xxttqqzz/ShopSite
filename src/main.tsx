@@ -1,10 +1,7 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
-
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+export default function App() {
+	return (
+		<div style={{ backgroundColor: "black", color: "lime", fontSize: "2rem" }}>
+			✔ React is working
+		</div>
+	);
+}
